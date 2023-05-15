@@ -1,0 +1,173 @@
+header{
+  padding: 22px 0;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-top{
+	padding: 30px 0 35px;
+}
+
+.header-top .container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+	
+.header-top .btn{
+  font-size: 15px;
+  line-height: 18px;
+  padding: 11px 48px;
+}
+
+.header	.btn{
+  margin-left: 29px;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 40px;
+}
+
+.head-right{
+	flex: 1 1 auto;
+	width: 1%;
+}
+
+.top-head,
+.btm-head{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.top-head .btn{
+	display: none;
+}
+
+.head-contact{
+	display: none;
+}
+
+.head-contact a{
+  display: block;
+  padding: 15px 0;
+  /* border-bottom: 1px solid ; */
+  margin: 0;
+}
+
+.lang{
+	padding-left: 55px;
+	margin-bottom: 20px;
+	display: flex;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.lang li{
+  display: block;
+  margin-left: 30px;
+}
+
+.lang li a{  
+  text-decoration: none;    
+  transition: all 0.2s ease-in-out;
+  color: #000;
+}
+
+.lang li a:hover{
+  color: #96B223;
+}
+
+.lang li a.active{
+	font-weight: 700;
+}
+
+.lang li a.active:hover{
+	color: #000;
+}
+
+.tel{
+	display: inline-block;
+  vertical-align: top;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.04em;
+	margin-left: 80px;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.tel:hover{
+  color: #96B223;
+  text-decoration: none;
+}
+
+.tel:focus{
+  color: #000;
+  text-decoration: none;
+}
+
+.mail{
+	display: inline-block;
+  vertical-align: top;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration: underline;
+	transition: all 0.2s ease-in-out;
+	margin-bottom: 20px;
+  color: #F09B00;
+}
+.mail:hover{
+  text-decoration: underline;
+  color: #96B223;
+}
+
+.mail:focus{
+  text-decoration: underline;
+  color: #F09B00;
+}
+
+
+.main-nav{
+	display: flex;	
+	font-size: 18px;
+	line-height: 22px;
+}
+.main-nav	li{
+  display: block;
+  margin-left: 30px;
+}
+
+.main-nav li a{
+  display: inline-block;
+  vertical-align: top;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-nav li a:hover{
+  color: #96B223;
+}
+
+.main-nav li a.active{
+  font-weight: 700;
+}
+
+.main-nav li a.active:hover{
+  color: #000;
+}
